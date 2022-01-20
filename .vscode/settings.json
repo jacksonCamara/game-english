@@ -4,4 +4,7 @@
     "editor.fontFamily": "fira code",
     "editor.fontLigatures": true,
     "window.zoomLevel": 1.1,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
