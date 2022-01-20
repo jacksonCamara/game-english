@@ -1,0 +1,7 @@
+{
+    "git.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "fira code",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1.1,
+}
