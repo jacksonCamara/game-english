@@ -4,7 +4,12 @@ import quebraCabecaData from "../../../../data/frases.json";
 import { useControladorContext } from "../controladorContext";
 import { Letra } from "../letra";
 import { Letras } from "../letras";
-import { FraseSelecionada, Palavra, QuadroLetra } from "./styles";
+import {
+  FraseSelecionada,
+  Palavra,
+  QuadroLetra,
+  WrapperLetras,
+} from "./styles";
 
 type TControlador = {
   id: string;
@@ -15,7 +20,7 @@ type TFrase = {
   ingles: string;
   portugues: string;
   palavras: Array<string>;
-  local: Array<number>;
+  posicoes: Array<number>;
 };
 
 function pegarFrase() {
@@ -26,29 +31,17 @@ function dividirFrase(frase: string): Array<string> {
   return frase.split(" ");
 }
 
-// function dividirPalavra(palavras: Array<string>): Array<string> {
-//   let array = [];
-//   let letra = [];
-//   for (let i = 0; i < palavras.length; i++) {
-//     letra = palavras[i].split("");
-//     for (let j = 0; j < letra.length; j++) {
-//       array.push(letra[j]);
-//     }
-//   }
-//   return array;
-// }
-
 function retirarPalavra(
   palavras: Array<string>,
-  local: Array<number>
+  posicoes: Array<number>
 ): (string | Array<ReactElement>)[] {
   let objPalavras: (string | Array<ReactElement>)[] = palavras;
-  for (let i = 0; i < local.length; i++) {
+  for (let i = 0; i < posicoes.length; i++) {
     let quadros = [];
-    for (let j = 0; j < palavras[local[i]].length; j++) {
+    for (let j = 0; j < palavras[posicoes[i]].length; j++) {
       quadros.push(<QuadroLetra></QuadroLetra>);
     }
-    objPalavras[local[i]] = quadros;
+    objPalavras[posicoes[i]] = quadros;
   }
   return objPalavras;
 }
@@ -58,24 +51,21 @@ export const Controlador = ({ id }: TControlador) => {
   const { fraseUsuario, setFraseUsuario } = useControladorContext();
   const [fraseSelecionada, setFraseSelecionada] = useState(pegarFrase());
   const [palavraSelecionadas, setPalavraSelecionadas] = useState([]);
-  // const [letras, setLetras] = useState([""]);
 
   useEffect(() => {
     let i = 0;
     let j = 0;
     let objPalavraSelecionadas = [...palavraSelecionadas];
-    if (objPalavraSelecionadas[fraseSelecionada.local[i]] !== undefined) {
+    if (objPalavraSelecionadas[fraseSelecionada.posicoes[i]] !== undefined) {
       let teste = 0;
       while (true) {
-        // console.log(i + " " + j);
         if (
-          objPalavraSelecionadas[fraseSelecionada.local[i]][j].props.children !=
+          objPalavraSelecionadas[fraseSelecionada.posicoes[i]][j].props.children !=
           undefined
         ) {
-          // console.log("oi");
           if (
             j >=
-            objPalavraSelecionadas[fraseSelecionada.local[i]].length - 1
+            objPalavraSelecionadas[fraseSelecionada.posicoes[i]].length - 1
           ) {
             i++;
             j = 0;
@@ -83,7 +73,7 @@ export const Controlador = ({ id }: TControlador) => {
             j++;
           }
         } else {
-          objPalavraSelecionadas[fraseSelecionada.local[i]][j] = (
+          objPalavraSelecionadas[fraseSelecionada.posicoes[i]][j] = (
             <QuadroLetra>{fraseUsuario[fraseUsuario.length - 1]}</QuadroLetra>
           );
           // console.log(fraseUsuario[fraseUsuario.length]);
@@ -91,7 +81,7 @@ export const Controlador = ({ id }: TControlador) => {
           break;
         }
 
-        if (i >= fraseSelecionada.local.length) {
+        if (i >= fraseSelecionada.posicoes.length) {
           break;
         }
       }
@@ -112,19 +102,15 @@ export const Controlador = ({ id }: TControlador) => {
     }
   }, [fraseUsuario, fraseSelecionada]);
 
-  useEffect(() => {
-    // console.log(palavraSelecionadas);
-  }, [palavraSelecionadas]);
+  useEffect(() => {}, [palavraSelecionadas]);
 
   useEffect(() => {
     let objPalavras = retirarPalavra(
       dividirFrase(fraseSelecionada.ingles),
-      fraseSelecionada.local
+      fraseSelecionada.posicoes
     );
 
     setPalavraSelecionadas(objPalavras);
-    // console.log(dividirPalavra(fraseSelecionada.palavras));
-    // setLetras(dividirPalavra(fraseSelecionada.palavras));
   }, [fraseSelecionada]);
 
   return (
@@ -134,12 +120,9 @@ export const Controlador = ({ id }: TControlador) => {
           return <Palavra key={elemento + indice}>{elemento}</Palavra>;
         })}
       </FraseSelecionada>
-      <FraseSelecionada>
-        {/* {letras.map((elemento, indice) => {
-          return <Letra key={elemento + indice} letra={elemento} />;
-        })} */}
+      <WrapperLetras>
         <Letras palavras={fraseSelecionada.palavras} />
-      </FraseSelecionada>
+      </WrapperLetras>
     </>
   );
 };

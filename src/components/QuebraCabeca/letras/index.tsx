@@ -16,6 +16,10 @@ function dividirPalavra(palavras: Array<string>): Array<string> {
   return todasLetras;
 }
 
+function embaralharLetra(letras: Array<string>): Array<string> {
+  return letras.sort(() => Math.random() - 0.5);
+}
+
 type TLetras = {
   palavras: Array<string>;
 };
@@ -24,7 +28,9 @@ export const Letras = ({ palavras }: TLetras) => {
   const [letras, setLetras] = useState([""]);
 
   useEffect(() => {
-    setLetras(dividirPalavra(palavras));
+    let letras = dividirPalavra(palavras);
+    letras = embaralharLetra(letras);
+    setLetras(dividirPalavra(letras));
   }, [palavras]);
 
   return (

@@ -11,7 +11,7 @@
                         "ingles": "We need to make sure that it is delivered in a timely fashion.",
                         "portugues": "Precisamos garantir que ele seja entregue em tempo hábil."   ,
                         "palavras": ["make", "sure"],
-                        "local": [3,4]     
+                        "posicoes": [3,4]     
                 }
                
         ]

@@ -13,4 +13,8 @@ export const Botao = styled.button`
   &:hover {
     background-color: #550055;
   }
+
+  &:disabled {
+    background-color: gray;
+  }
 `;

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useControladorContext } from "../controladorContext";
 import { Botao } from "./styles";
 
@@ -7,9 +8,20 @@ type TLetraBotao = {
 
 export const Letra = ({ letra }: TLetraBotao) => {
   const { fraseUsuario, setFraseUsuario } = useControladorContext();
-  function click() {
+  const [botaoHabilitado, setBotaoHabilitado] = useState(true);
+
+  function selecionar() {
     setFraseUsuario([...fraseUsuario, letra]);
+    setBotaoHabilitado(false);
   }
 
-  return <Botao onClick={click}>{letra}</Botao>;
+  useEffect(() => {
+    if (fraseUsuario.length === 0) setBotaoHabilitado(true);
+  }, [fraseUsuario]);
+
+  return (
+    <Botao onClick={selecionar} disabled={!botaoHabilitado}>
+      {letra}
+    </Botao>
+  );
 };
