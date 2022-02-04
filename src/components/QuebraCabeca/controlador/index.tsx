@@ -2,6 +2,8 @@ import Router, { useRouter } from "next/router";
 import { ReactElement, useEffect, useState } from "react";
 import quebraCabecaData from "../../../../data/frases.json";
 import { useControladorContext } from "../controladorContext";
+import { Letra } from "../letra";
+import { Letras } from "../letras";
 import { FraseSelecionada, Palavra, QuadroLetra } from "./styles";
 
 type TControlador = {
@@ -24,17 +26,17 @@ function dividirFrase(frase: string): Array<string> {
   return frase.split(" ");
 }
 
-function dividirPalavra(palavras: Array<string>): Array<string> {
-  let array = [];
-  let letra = [];
-  for (let i = 0; i < palavras.length; i++) {
-    letra = palavras[i].split("");
-    for (let j = 0; j < letra.length; j++) {
-      array.push(letra[j]);
-    }
-  }
-  return array;
-}
+// function dividirPalavra(palavras: Array<string>): Array<string> {
+//   let array = [];
+//   let letra = [];
+//   for (let i = 0; i < palavras.length; i++) {
+//     letra = palavras[i].split("");
+//     for (let j = 0; j < letra.length; j++) {
+//       array.push(letra[j]);
+//     }
+//   }
+//   return array;
+// }
 
 function retirarPalavra(
   palavras: Array<string>,
@@ -51,25 +53,12 @@ function retirarPalavra(
   return objPalavras;
 }
 
-type TLetraBotao = {
-  letra: string;
-};
-
-export const LetraBotao = ({ letra }: TLetraBotao) => {
-  const { fraseUsuario, setFraseUsuario } = useControladorContext();
-  function click() {
-    setFraseUsuario([...fraseUsuario, letra]);
-  }
-
-  return <QuadroLetra onClick={click}>{letra}</QuadroLetra>;
-};
-
 export const Controlador = ({ id }: TControlador) => {
   const router = useRouter();
   const { fraseUsuario, setFraseUsuario } = useControladorContext();
   const [fraseSelecionada, setFraseSelecionada] = useState(pegarFrase());
   const [palavraSelecionadas, setPalavraSelecionadas] = useState([]);
-  const [letras, setLetras] = useState([""]);
+  // const [letras, setLetras] = useState([""]);
 
   useEffect(() => {
     let i = 0;
@@ -94,7 +83,6 @@ export const Controlador = ({ id }: TControlador) => {
             j++;
           }
         } else {
-          console.log("aqyu");
           objPalavraSelecionadas[fraseSelecionada.local[i]][j] = (
             <QuadroLetra>{fraseUsuario[fraseUsuario.length - 1]}</QuadroLetra>
           );
@@ -136,7 +124,7 @@ export const Controlador = ({ id }: TControlador) => {
 
     setPalavraSelecionadas(objPalavras);
     // console.log(dividirPalavra(fraseSelecionada.palavras));
-    setLetras(dividirPalavra(fraseSelecionada.palavras));
+    // setLetras(dividirPalavra(fraseSelecionada.palavras));
   }, [fraseSelecionada]);
 
   return (
@@ -147,9 +135,10 @@ export const Controlador = ({ id }: TControlador) => {
         })}
       </FraseSelecionada>
       <FraseSelecionada>
-        {letras.map((elemento, indice) => {
-          return <LetraBotao key={elemento + indice} letra={elemento} />;
-        })}
+        {/* {letras.map((elemento, indice) => {
+          return <Letra key={elemento + indice} letra={elemento} />;
+        })} */}
+        <Letras palavras={fraseSelecionada.palavras} />
       </FraseSelecionada>
     </>
   );
