@@ -1,0 +1,20 @@
+[
+    {
+        "id": "b3f9e535-aab0-41be-8493-8f2671f9d48a",
+        "categoria": "Negócios",
+        "tema": "Palavras que mais aparecem em negócios.",
+        "vocabulario": "Variado",
+        "descricao": "Aprenda as palavras mais usadas no mundo de negócios.",
+        "frases": [
+                {
+                        "id": "",
+                        "ingles": "We need to make sure that it is delivered in a timely fashion.",
+                        "portugues": "Precisamos garantir que ele seja entregue em tempo hábil."   ,
+                        "palavras": ["make", "sure"],
+                        "local": [3,4]     
+                }
+               
+        ]
+    }
+    
+]

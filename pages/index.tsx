@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styled from "styled-components";
+import { Cards } from "../src/components/home/cards";
 
 const Title = styled.h1`
   font-size: 50px;
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Title>My page Home</Title>
+      <Cards />
     </>
   );
 };
