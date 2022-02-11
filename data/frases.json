@@ -6,15 +6,790 @@
         "vocabulario": "Variado",
         "descricao": "Aprenda as palavras mais usadas no mundo de negócios.",
         "frases": [
-                {
-                        "id": "",
-                        "ingles": "We need to make sure that it is delivered in a timely fashion.",
-                        "portugues": "Precisamos garantir que ele seja entregue em tempo hábil."   ,
-                        "palavras": ["make", "sure"],
-                        "posicoes": [3,4]     
-                }
-               
+            {
+                "id": "",
+                "ingles": "We need to make sure that it is delivered in a timely fashion.",
+                "portugues": "Precisamos garantir que ele seja entregue em tempo hábil.",
+                "palavras": [
+                    "make",
+                    "sure"
+                ],
+                "posicoes": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I was about to leave the office to meet you.",
+                "portugues": "Eu estava prestes a sair do escritório para conhecê-lo.",
+                "palavras": [
+                    "leave"
+                ],
+                "posicoes": [
+                    4
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "But I realized that I still have one last report to finish.",
+                "portugues": "Mas percebi que ainda tenho um último relatório para terminar.",
+                "palavras": [
+                    "realized"
+                ],
+                "posicoes": [
+                    2
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I wouldn't want to call off our meeting.",
+                "portugues": "Eu não queria cancelar nossa reunião.",
+                "palavras": [
+                    "call",
+                    "off"
+                ],
+                "posicoes": [
+                    4,
+                    5
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Would you mind?",
+                "portugues": "Você se importaria?",
+                "palavras": [
+                    "mind"
+                ],
+                "posicoes": [
+                    2
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Would you mind waiting around for 15 to 20 minutes?",
+                "portugues": "Você se importaria de esperar por 15 a 20 minutos?",
+                "palavras": [
+                    "mind"
+                ],
+                "posicoes": [
+                    2
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I promise I will treat you a slice of cake and a cup of coffee.",
+                "portugues": "Eu prometo que eu oferecerei a você uma fatia do meu bolo e uma xícara de café.",
+                "palavras": [
+                    "treat"
+                ],
+                "posicoes": [
+                    4
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "You can go straight to my office.",
+                "portugues": "Você pode ir direto para meu escritório.",
+                "palavras": [
+                    "straight"
+                ],
+                "posicoes": [
+                    3
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I will just have the food and beverages delivered here.",
+                "portugues": "Vou apenas ter a comida e as bebidas entregues aqui.",
+                "palavras": [
+                    "beverages"
+                ],
+                "posicoes": [
+                    7
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "If your schedule is too tight, maybe we can just have dinner instead?",
+                "portugues": "Se sua agenda estiver muito apertada, talvez possamos jantar em vez disso?",
+                "palavras": [
+                    "tight"
+                ],
+                "posicoes": [
+                    5
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Other programs may come in a hybrid format partially online and course attendance.",
+                "portugues": "Outros programas podem vir em um formato híbrido parcialmente online e cursos presenciais.",
+                "palavras": [
+                    "attendance"
+                ],
+                "posicoes": [
+                    12
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "The teacher checks the class attendance every day.",
+                "portugues": "O professor verifica a frequência das aulas todos os dias.",
+                "palavras": [
+                    "attendance"
+                ],
+                "posicoes": [
+                    5
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I know this fancy restaurant near your place.",
+                "portugues": "Conheço este restaurante chique perto da sua casa.",
+                "palavras": [
+                    "fancy"
+                ],
+                "posicoes": [
+                    3
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I will try my best to finish this report as soon as I can.",
+                "portugues": "Vou tentar o meu melhor para terminar este relatório o mais rápido possível.",
+                "palavras": [
+                    "as",
+                    "soon",
+                    "as"
+                ],
+                "posicoes": [
+                    9,
+                    10,
+                    11
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Catch you later. Goodbye.",
+                "portugues": "Até mais tarde. Tchau.",
+                "palavras": [
+                    "catch"
+                ],
+                "posicoes": [
+                    0
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "I treat remarks like that with the contempt that they deserve.",
+                "portugues": "Trato comentários assim com o desprezo que merecem.",
+                "palavras": [
+                    "treat"
+                ],
+                "posicoes": [
+                    1
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "A big factor is cost because you may have to pay for a course or your employer may partly or fully refund you.",
+                "portugues": "Um grande fator é o custo porque você pode ter que pagar por um curso ou seu empregador pode reembolsá-lo parcial ou totalmente.",
+                "palavras": [
+                    "refund"
+                ],
+                "posicoes": [
+                    21
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "At some programs, students often meet in person and knowledgeable instructors guide them.",
+                "portugues": "Em alguns programas, os alunos geralmente se encontram pessoalmente e um instrutor experiente os orienta.",
+                "palavras": [
+                    "knowledgeable"
+                ],
+                "posicoes": [
+                    9
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Some education programs offer job skills or knowledge enhancement courses online.",
+                "portugues": "Alguns programas de educação oferecem habilidades de trabalho ou cursos de aprimoramento de conhecimento on-line.",
+                "palavras": [
+                    "enhancement"
+                ],
+                "posicoes": [
+                    8
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "The formats on offer vary.",
+                "portugues": "Os formatos oferecidos variam.",
+                "palavras": [
+                    "vary"
+                ],
+                "posicoes": [
+                    4
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Because you will need to take classes that fit in with your work and private demands.",
+                "portugues": "Porque você precisará ter aulas que se encaixem no seu trabalho e demandas particulares.",
+                "palavras": [
+                    "fit",
+                    "in"
+                ],
+                "posicoes": [
+                    8,
+                    9
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "You may also need to speed up or slow down your progress depending on your individual needs.",
+                "portugues": "Você também pode precisar acelerar ou desacelerar seu progresso, dependendo de suas necessidades individuais.",
+                "palavras": [
+                    "slow",
+                    "down"
+                ],
+                "posicoes": [
+                    8,
+                    9
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "What you really need to look at are your educational goals compared with the convenience.",
+                "portugues": "O que você realmente precisa observar são seus objetivos educacionais em comparação com a conveniência.",
+                "palavras": [
+                    "look",
+                    "at"
+                ],
+                "posicoes": [
+                    5,
+                    6
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "Finding the right adult education course can be tricky.",
+                "portugues": "Encontrar o curso certo de educação de adultos pode ser complicado.",
+                "palavras": [
+                    "tricky"
+                ],
+                "posicoes": [
+                    8
+                ]
+            },
+            {
+                "id": "",
+                "ingles": "There are many choices, but there is no one size fits all solution.",
+                "portugues": "Há muitas escolhas, mas não há uma solução que agrade a todos.",
+                "palavras": [
+                    "one", "size", "fits", "all"
+                ],
+                "posicoes": [ 8, 9, 10, 11]
+            },
+            {
+                "id": "",
+                "ingles": "If I want to achieve something, nothing is going to stand in my way, nothing.",
+                "portugues": "Se eu quiser alcançar algo, nada vai ficar no meu caminho, nada.",
+                "palavras": [
+                    "stand"
+                ],
+                "posicoes": [10]
+            },
+            {
+                "id": "",
+                "ingles": "We can blow the competition away if we stay focused and practice teamwork.",
+                "portugues": "Podemos acabar com a competição se ficarmos focados e praticarmos o trabalho em equipe.",
+                "palavras": [
+                    "blow"
+                ],
+                "posicoes": [2]
+            },
+            {
+                "id": "",
+                "ingles": "Being able to represent your country and wear the stars and stripes.",
+                "portugues": "Ser capaz de representar seu país e vestir a bandeira americana.",
+                "palavras": [
+                    "stars", "and", "stripes"
+                ],
+                "posicoes": [9, 10, 11]
+            },
+            {
+                "id": "",
+                "ingles": "A powerful force in the pool with an arm span of over six and a half feet.",
+                "portugues": "Uma força poderosa na piscina com uma envergadura de mais de seis pés e meio.",
+                "palavras": [
+                    "powerfull"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "Tell me if you can relate to this.",
+                "portugues": "Diga-me se você pode se relacionar com isso.",
+                "palavras": [
+                    "relate", "to"
+                ],
+                "posicoes": [5,6]
+            },
+            {
+                "id": "",
+                "ingles": "You were an avid reader of fiction as a kid.",
+                "portugues": "Você era um ávido leitor de ficção quando criança.",
+                "palavras": [
+                    "avid"
+                ],
+                "posicoes": [3]
+            },
+            {
+                "id": "",
+                "ingles": "That was my experience growing up.",
+                "portugues": "Essa foi a minha experiência crescendo.",
+                "palavras": [
+                    "growing", "up"
+                ],
+                "posicoes": [4,5]
+            },
+            {
+                "id": "",
+                "ingles": "I learned to stop depending on my parents while I was growing up.",
+                "portugues": "Aprendi a parar de depender dos meus pais enquanto crescia.",
+                "palavras": [
+                    "growing", "up"
+                ],
+                "posicoes": [11,12]
+            },
+            {
+                "id": "",
+                "ingles": "Books are my very favorite way to absorb new information.",
+                "portugues": "Os livros são minha maneira favorita de absorver novas informações.",
+                "palavras": [
+                    "absorb"
+                ],
+                "posicoes": [7]
+            },
+            {
+                "id": "",
+                "ingles": "I always keep spare change handy.",
+                "portugues": "Eu sempre mantenho trocados à mão.",
+                "palavras": [
+                    "spare", "change"
+                ],
+                "posicoes": [3,4]
+            },
+            {
+                "id": "",
+                "ingles": "The computer comes in three colors.",
+                "portugues": "O computador está disponível em três cores.",
+                "palavras": [
+                    "comes"
+                ],
+                "posicoes": [2]
+            },
+            {
+                "id": "",
+                "ingles": "This additional time comes in handy and may help you not to be late for another appointment.",
+                "portugues": "Esse tempo adicional é útil e pode ajudá-lo a não se atrasar para outro compromisso.",
+                "palavras": [
+                    "comes", "in", "handy"
+                ],
+                "posicoes": [3,4,5]
+            },
+            {
+                "id": "",
+                "ingles": "Note down those tasks that you have delegated to others.",
+                "portugues": "Anote as tarefas que tiver delegado a outros.",
+                "palavras": [
+                    "Note", "down"
+                ],
+                "posicoes": [0, 1]
+            },
+            {
+                "id": "",
+                "ingles": "Let me note down the minutes of the meeting.",
+                "portugues": "Deixe-me anotar a ata da reunião.",
+                "palavras": [
+                    "note", "down"
+                ],
+                "posicoes": [2,3]
+            },
+            {
+                "id": "",
+                "ingles": "Have you ever had a job like this before?",
+                "portugues": "Você já trabalhou com um trabalho tipo este antes?",
+                "palavras": [
+                    "like"
+                ],
+                "posicoes": [6]
+            },
+            {
+                "id": "",
+                "ingles": "It would also be a good idea to include an address book to save time looking for this information elsewhere.",
+                "portugues": "Também seria uma boa ideia incluir um livro de endereços para poupar tempo procurando por essa informação em outro lugar.",
+                "palavras": [
+                    "elsewhere"
+                ],
+                "posicoes": [19]
+            },
+            {
+                "id": "",
+                "ingles": "Schedule some relaxation time and include personal stuff too.",
+                "portugues": "Agende tempo para relaxar e inclua coisas pessoais também.",
+                "palavras": [
+                    "Schedule"
+                ],
+                "posicoes": [0]
+            },
+            {
+                "id": "",
+                "ingles": "Be diligent about keeping your schedule updated.",
+                "portugues": "Seja diligente quanto a manter sua agenda atualizada.",
+                "palavras": [
+                    "diligent"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "Many hours of diligent research were required.",
+                "portugues": "Muitas horas de pesquisa diligente foram necessárias.",
+                "palavras": [
+                    "required"
+                ],
+                "posicoes": [6]
+            },
+            {
+                "id": "",
+                "ingles": "Some mobile phones that you can synchronize with your computer can be excellent gadgets.",
+                "portugues": "Alguns telefones celulares que você pode sincronizar com seu computador podem ser ótimos dispositivos.",
+                "palavras": [
+                    "gadgets"
+                ],
+                "posicoes": [13]
+            },
+            {
+                "id": "",
+                "ingles": "My camping gadgets include a portable stove and a solar-powered flashlight.",
+                "portugues": "Meus equipamentos de acampamento incluem um fogão portátil e uma lanterna movida a energia solar.",
+                "palavras": [
+                    "gadgets"
+                ],
+                "posicoes": [2]
+            },
+            {
+                "id": "",
+                "ingles": "Google is very interested in improving the speed of the web.",
+                "portugues": "O Google está muito interessado em melhorar a velocidade da web.",
+                "palavras": [
+                    "improving"
+                ],
+                "posicoes": [5]
+            },
+            {
+                "id": "",
+                "ingles": "In order for that information to be useful.",
+                "portugues": "Para que essa informação seja útil.",
+                "palavras": [
+                    "in", "order", "for"
+                ],
+                "posicoes": [0, 1,2]
+            },
+            {
+                "id": "",
+                "ingles": "We need to make sure that it is delivered in a timely fashion.",
+                "portugues": "Precisamos garantir que ele seja entregue em tempo hábil.",
+                "palavras": [
+                    "fashion"
+                ],
+                "posicoes": [12]
+            },
+            {
+                "id": "",
+                "ingles": "If you are not used to it, working from home can be an adjustment.",
+                "portugues": "Se você não está acostumado com isso, trabalhar de casa pode ser um ajuste.",
+                "palavras": [
+                    "adjustment"
+                ],
+                "posicoes": [13]
+            },
+            {
+                "id": "",
+                "ingles": "Living alone in the city can be tough.",
+                "portugues": "Morar sozinho na cidade pode ser difícil.",
+                "palavras": [
+                    "tough"
+                ],
+                "posicoes": [7]
+            },
+            {
+                "id": "",
+                "ingles": "How can you squeeze an inviting workstation into an already tight space?",
+                "portugues": "Como você pode espremer uma estação de trabalho convidativa em um espaço já apertado?",
+                "palavras": [
+                    "tight"
+                ],
+                "posicoes": [10]
+            },
+            {
+                "id": "",
+                "ingles": "Just begging to be transformed into your workstation.",
+                "portugues": "Apenas implorando para ser transformado em sua estação de trabalho.",
+                "palavras": [
+                    "begging"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "Only the item necessary for your work should be within arms reach.",
+                "portugues": "Somente os itens necessários para seu trabalho deveriam estar dentro do alcance dos braços.",
+                "palavras": [
+                    "reach"
+                ],
+                "posicoes": [11]
+            },
+            {
+                "id": "",
+                "ingles": "If you make video calls, remember to also tidy up the space behind you.",
+                "portugues": "Se você faz vídeo chamada, lembre-se também de organizar o espaço atrás de você.",
+                "palavras": [
+                    "tidy", "up"
+                ],
+                "posicoes": [8,9]
+            },
+            {
+                "id": "",
+                "ingles": "Getting rid of auditory distractions can be harder.",
+                "portugues": "Livrar-se de distrações auditivas pode ser mais difícil.",
+                "palavras": [
+                    "rid"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "This is where headphones come in handy.",
+                "portugues": "É onde que os fones de ouvido são úteis.",
+                "palavras": [
+                    "come", "in", "handy"
+                ],
+                "posicoes": [4,5,6]
+            },
+            {
+                "id": "",
+                "ingles": "Your spouse or any other people in your household.",
+                "portugues": "Seu cônjuge ou qualquer outra pessoa em sua família.",
+                "palavras": [
+                    "spouse"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "Don't outfit your room with boring office furniture.",
+                "portugues": "Não equipe seu quarto com móveis de escritório chatos.",
+                "palavras": [
+                    "outfit"
+                ],
+                "posicoes": [1]
+            },
+            {
+                "id": "",
+                "ingles": "We'll think about a present for her and see what we can come up with.",
+                "portugues": "Vamos pensar em um presente para ela e ver o que podemos propor.",
+                "palavras": [
+                    "come", "up", "with"
+                ],
+                "posicoes": [12,13,14]
+            },
+            {
+                "id": "",
+                "ingles": "Gavin came up with the idea of dividing the rooms in half.",
+                "portugues": "Gavin propos a ideia de dividir os quartos ao meio.",
+
+                "palavras": [
+                    "came", "up", "with"
+                ],
+                "posicoes": [1,2,3]
+            },
+            {
+                "id": "",
+                "ingles": "They came up with a plan to make us more efficient.",
+                "portugues": "Eles proporam um plano para nos tornar mais eficientes.",
+                "palavras": [
+                    "came", "up", "with"
+                ],
+                "posicoes": [1,2,3]
+            },
+            {
+                "id": "",
+                "ingles": "Next you need to come up with a name for your product.",
+                "portugues": "Em seguida, você precisa propor um nome para o seu produto.",
+                "palavras": [
+                    "come", "up", "with"
+                ],
+                "posicoes": [4,5,6]
+            },
+            {
+                "id": "",
+                "ingles": "Whether you use a table lamp ou a hanging ceiling lamp, lighting is key.",
+                "portugues": "Se você usa uma lâmpada de mesa ou uma lâmpada de teto pendurada, a iluminação é fundamental.",
+                "palavras": [
+                    "Whether"
+                ],
+                "posicoes": [0]
+            },
+            {
+                "id": "",
+                "ingles": "You will need storage to keep your space tidy.",
+                "portugues": "Você precisará de armazenamento para manter seu espaço arrumado.",
+                "palavras": [
+                    "tidy"
+                ],
+                "posicoes": [8]
+            },
+            {
+                "id": "",
+                "ingles": "Finally a nice photograph or artwork will go a long way.",
+                "portugues": "Finalmente uma fotografia agradável ou obra de arte irá ajudar bastante.",
+                "palavras": [
+                    "go", "a", "long", "way"
+                ],
+                "posicoes": [7,8,9,10]
+            },
+            {
+                "id": "",
+                "ingles": "It was clear from a very young age that Kylie would go a long way.",
+                "portugues": "Ficou claro desde muito jovem que Kylie iria longe.",
+                "palavras": [
+                    "go", "a", "long", "way"
+                ],
+                "posicoes": [11,12,13,14]
+            },
+            {
+                "id": "",
+                "ingles": "His small fortune didn't go a long way for him.",
+                "portugues": "Sua pequena fortuna não ajudou muito.",
+                "palavras": [
+                    "go", "a", "long", "way"
+                ],
+                "posicoes": [4,5,6,7]
+            },
+            {
+                "id": "",
+                "ingles": "Come up with visual cues so they know when it's safe to approach you.",
+                "portugues": "Apresente dicas visuais para que saibam quando é seguro se aproximar de você.",
+                "palavras": [
+                    "Come", "up", "with"
+                ],
+                "posicoes": [0,1,2]
+            },
+            {
+                "id": "",
+                "ingles": "Towards making your workstation pleasant and inviting.",
+                "portugues": "Para tornar sua estação de trabalho agradável e convidativa.",
+                "palavras": [
+                    "Towards"
+                ],
+                "posicoes": [0]
+            },
+            {
+                "id": "",
+                "ingles": "This month's magazine issue is special, that's why it has a glossy cover.",
+                "portugues": "A edição deste mês da revista é especial por isso tem capa brilhante.",
+                "palavras": [
+                    "issue"
+                ],
+                "posicoes": [3]
+            },
+            {
+                "id": "",
+                "ingles": "Running the machine should be done with caution.",
+                "portugues": "A operação da máquina deve ser feita com cautela.",
+                "palavras": [
+                    "caution"
+                ],
+                "posicoes": [7]
+            },
+            {
+                "id": "",
+                "ingles": "People will be very interested in you when you communicate effectively.",
+                "portugues": "As pessoas ficarão muito interessadas em você quando você se comunicar de forma eficaz.",
+                "palavras": [
+                    "effectively"
+                ],
+                "posicoes": [10]
+            },
+            {
+                "id": "",
+                "ingles": "Make sure that you follow instructions.",
+                "portugues": "Certifique-se que você está seguindo as instruções.",
+                "palavras": [
+                    "make", "sure"
+                ],
+                "posicoes": [0,1]
+            },
+            {
+                "id": "",
+                "ingles": "Make sure you allow some extra time for each item by adding about 25% more time.",
+                "portugues": "Certifique-se de permitir tempo extra para cada item adicionando aproximadamente 25% mais tempo.",
+                "palavras": [
+                    "allow"
+                ],
+                "posicoes": [3]
+            },
+            {
+                "id": "",
+                "ingles": "Time is important and keeping a planner is a good tool to keep track of things.",
+                "portugues": "Tempo é importante e manter uma agenda é uma boa ferramenta para manter o controle das coisas.",
+                "palavras": [
+                    "track"
+                ],
+                "posicoes": [13]
+            },
+            {
+                "id": "",
+                "ingles": "Whenever I watch a game, I usually eat popcorn and hotdogs.",
+                "portugues": "Sempre que eu assisto um jogo, geralmente eu como pipoca e cachorro quente.",
+                "palavras": [
+                    "Whenever"
+                ],
+                "posicoes": [0]
+            },
+            {
+                "id": "",
+                "ingles": "Whenever you plan something, execute it without question.",
+                "portugues": "Sempre que planejar algo, execute sem questionar.",
+                "palavras": [
+                    "Whenever"
+                ],
+                "posicoes": [0]
+            },
+            {
+                "id": "",
+                "ingles": "I would like to have more spare time to stay with my family on the weekend.",
+                "portugues": "Eu gostaria de ter mais tempo livre para ficar com minha família no fim de semana.",
+                "palavras": [
+                    "spare", "time"
+                ],
+                "posicoes": [5,6]
+            },
+            {
+                "id": "",
+                "ingles": "I wish to have more free time to spend with my family on weekends.",
+                "portugues": "Eu desejaria ter mais tempo livre pra ficar com minha família nos finais de semana.",
+                "palavras": [
+                    "spend"
+                ],
+                "posicoes": [8]
+            }
+
         ]
     }
-    
 ]

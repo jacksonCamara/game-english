@@ -36,7 +36,7 @@ export const Letras = ({ palavras }: TLetras) => {
   return (
     <Container>
       {letras.map((letra, indice) => {
-        return <Letra key={letra + indice} letra={letra} />;
+        return <Letra key={letra + indice + letras.join("")} letra={letra} />;
       })}
     </Container>
   );
